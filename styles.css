@@ -1,29 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla');
+@import url("https://fonts.googleapis.com/css2?family=Karla");
 
 /* The body class targets the <body> tag in your html file */
 body {
-    background-color: rgb(227, 219, 216);
-    font-family: "Karla", sans-serif;
-    margin: 0;
+  background-color: #ffe6fd;
+  font-family: "Karla", sans-serif;
+  margin: 0;
 }
 
 /* The following classes are used to style the corresponding html classes */
 .menu {
-    padding: 40px;
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 16px;
-    position: sticky;
-    top: 0;
-    display: flex;
-    gap: 20px;
+  padding: 40px;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 20px;
 }
 
 .menu a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ff87d5;
 }
 
 .content {
-    padding: 40px;
+  padding: 40px;
+}
+
+p {
+  color: purple;
+}
+
+.about-page {
+  color: black;
+}
+
+img {
+  width: 100px;
+  height: auto;
 }
